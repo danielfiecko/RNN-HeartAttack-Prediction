@@ -19,7 +19,7 @@ def convert_dataset(dataset, window_size):
 
 
 def prepare_dataset(scaler, window_size):
-    raw_dataframe = read_csv('SBP-PredictionDataSet-testset.csv',
+    raw_dataframe = read_csv('PredictionDataSet-testset.csv',
                              usecols=[0], engine='python')
     raw_dataset = raw_dataframe.values.astype('float32')
     normalized_dataset = scaler.fit_transform(raw_dataset)
