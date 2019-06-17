@@ -3,7 +3,7 @@
 Installation Prerequisites:
 
 
-```python
+```bash
 brew cask install anaconda
 conda create --name rnn_heartattack_env python=3.5
 conda info --envs
