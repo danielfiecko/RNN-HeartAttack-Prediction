@@ -13,4 +13,4 @@ pip install -r requirements.txt
 python rnn.py
 ```
 
-Description: [LINK]
+Description: [blog post](https://www.kainos.pl/blog/would-artificial-intelligence-be-able-predict-a-heart-attack/)
